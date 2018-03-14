@@ -59,6 +59,8 @@ the selected strategy.
 You should make *absolutely sure* that everyone uses the same tactic, or you
 will wipe for sure.
 
+![Go Right!](http://cdn-wow.mmoui.com/preview/pvw3658.jpg)
+
 ## Authors
 Original coding, arrows and sounds was done by Kebinusan.
 
