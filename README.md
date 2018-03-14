@@ -36,18 +36,18 @@ Strategies:
    people will move to his back.
 
  * Four States
-   Imagine a square, which has + charges on the top/wall (NW, NE), - charges
+   Imagine a square, which has '+' charges on the top/wall (NW, NE), '-' charges
    on the bottom/edge (SW, SE). Key rule is this: On each polarity change, you
    always move, and to the nearest area which matches your polarity charge.
    Movement is conducted along the sides of the square, with people grouping
    at corners. Everyone starts bottom right (SE) on the square with no
-   polarity. On the first polarity charge, if you get +, you move to nearest
-   + area, which is NE. If you get -, you move to the nearest - area, which is SW.
-   On the second polarity charge, if you are +, you could either remain + (move
-   to NW), or change to - (move to SE). If you are -, you could either remain -
-   (move to SE), or change to + (move to NW). At all times you always move, and
-   to the nearest +/- charge area to match your polarity, along the sides of
-   the square, which itself is defined to have + on the top, and - on the
+   polarity. On the first polarity charge, if you get '+', you move to nearest
+   '+' area, which is NE. If you get '-', you move to the nearest '-' area, which is SW.
+   On the second polarity charge, if you are '+', you could either remain '+' (move
+   to NW), or change to '-' (move to SE). If you are '-', you could either remain '-'
+   (move to SE), or change to '+' (move to NW). At all times you always move, and
+   to the nearest '+/-' charge area to match your polarity, along the sides of
+   the square, which itself is defined to have '+' on the top, and '-' on the
    bottom. This pattern now repeats on all subsequent polarity changes,
    always following the key rule above.
 
