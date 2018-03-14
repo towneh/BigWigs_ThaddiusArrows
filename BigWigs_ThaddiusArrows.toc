@@ -1,4 +1,4 @@
-﻿## Interface: 20003
+﻿## Interface: 11200
 
 ## Title: Big Wigs |cffff0000+|r|cffffffffThaddius Arrows|r
 ## Notes: Shows Arrows indicating which way to run based on your current polarity
