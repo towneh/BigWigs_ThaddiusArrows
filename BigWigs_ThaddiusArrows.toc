@@ -1,0 +1,19 @@
+﻿## Interface: 20003
+
+## Title: Big Wigs |cffff0000+|r|cffffffffThaddius Arrows|r
+## Notes: Shows Arrows indicating which way to run based on your current polarity
+## Author: Kebinusan and Rabbit
+## X-Build: $Revision: 24465 $
+## X-ReleaseDate: $Date: 2007-01-10 06:01:57 -0500 (Wed, 10 Jan 2007) $
+## X-Email: kebinusan@gmail.com
+## X-Category: Raid
+
+## LoadOnDemand: 1
+
+## X-BigWigs-LoadInZone: Naxxramas
+
+## Dependencies: BigWigs
+## OptionalDeps: Ace2
+
+BigWigs_ThaddiusArrows.lua
+
