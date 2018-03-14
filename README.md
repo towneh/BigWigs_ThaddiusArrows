@@ -61,5 +61,7 @@ will wipe for sure.
 
 ## Authors
 Original coding, arrows and sounds was done by Kebinusan.
-Developers further by Rabbit.
+
+Developed further by Rabbit.
+
 Updated here for use with 1.12.1 on Light's Hope project realms by Towneh.
