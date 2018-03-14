@@ -20,8 +20,11 @@ first Polarity Shift it will tell you which direction you should move based on
 the selected strategy.
 
 Strategies:
+ 
  * Circular R/L
+ 
  * Circular L/R
+ 
    Both strategies involve everyone in the raid rotating 90 degrees when a
    Polarity Shift occurs. If your debuff changed, you move in one direction,
    and if it didn't, you move in another.
@@ -31,11 +34,13 @@ Strategies:
    if you did.
 
  * Run Through
+ 
    Simply running through Thaddius to your charges camp. Typically Positive
    charged people will stand on the initial tank spot and Negative charged
    people will move to his back.
 
  * Four States
+   
    Imagine a square, which has '+' charges on the top/wall (NW, NE), '-' charges
    on the bottom/edge (SW, SE). Key rule is this: On each polarity change, you
    always move, and to the nearest area which matches your polarity charge.
