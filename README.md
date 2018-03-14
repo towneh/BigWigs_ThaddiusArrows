@@ -19,11 +19,11 @@ BW_TA assumes that your raid is bunched up at the start of phase 2. After the
 first Polarity Shift it will tell you which direction you should move based on
 the selected strategy.
 
-##Strategies:##
+## Strategies:
  
- * **Circular R/L
+ * **Circular R/L**
  
- * **Circular L/R
+ * **Circular L/R**
  
    Both strategies involve everyone in the raid rotating 90 degrees when a
    Polarity Shift occurs. If your debuff changed, you move in one direction,
@@ -33,13 +33,13 @@ the selected strategy.
    Negative on the first charge and then right if you did not change and left
    if you did.
 
- * **Run Through
+ * **Run Through**
  
    Simply running through Thaddius to your charges camp. Typically Positive
    charged people will stand on the initial tank spot and Negative charged
    people will move to his back.
 
- * **Four States
+ * **Four States**
    
    Imagine a square, which has '+' charges on the top/wall (NW, NE), '-' charges
    on the bottom/edge (SW, SE). Key rule is this: On each polarity change, you
