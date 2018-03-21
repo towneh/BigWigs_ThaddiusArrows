@@ -247,7 +247,7 @@ function BigWigsThaddiusArrows:OnEnable()
 	end
 	if not found or not self.db.profile.strat or type(self.db.profile.strat) ~= "string" then
 		self:Print(L["Invalid Thaddius strategy, resetting to default."])
-		self.db.profile.strat = stratCircularLR
+		self.db.profile.strat = stratCircularRL
 	end
 
 	self:Print(L["Thaddius strategy is set to "]..self.db.profile.strat)
