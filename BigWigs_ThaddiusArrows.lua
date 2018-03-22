@@ -216,9 +216,6 @@ function BigWigsThaddiusArrows:OnRegister()
 end
 
 function BigWigsThaddiusArrows:OnEnable()
-	self.previousCharge = nil
-	self.strat_four_current = 1
-
 	local strategies = L["strat_validate"]
 	if not strategies or not type(strategies) == "table" then
 		error("Strategy table is not a table in BigWigs_ThaddiusArrows.")
@@ -265,6 +262,11 @@ function BigWigsThaddiusArrows:OnEnable()
 	self:TriggerEvent("BigWigs_ThrottleSync", "ThaddiusArrowsStrategy", 2)
 end
 
+function BigWigsThaddiusArrows:OnSetup()
+	self.previousCharge = nil
+	self.strat_four_current = 1
+end
+	
 function BigWigsThaddiusArrows:OnDisable()
 	if self.frameArrow then self.frameArrow:Hide() end
 	if self.framestraightArrow then self.framestraightArrow:Hide() end
