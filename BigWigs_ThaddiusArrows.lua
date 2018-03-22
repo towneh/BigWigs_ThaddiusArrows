@@ -262,7 +262,7 @@ function BigWigsThaddiusArrows:OnEnable()
 	self:TriggerEvent("BigWigs_ThrottleSync", "ThaddiusArrowsStrategy", 2)
 end
 
-function module:OnSetup()
+function BigWigsThaddiusArrows:OnSetup()
 	self.previousCharge = nil
 	self.strat_four_current = 1
 end
